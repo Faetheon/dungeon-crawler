@@ -105,3 +105,9 @@ const enemyTypes = {
 };
 
 const player1 = new Player();
+const enemy1 = new Enemy();
+
+module.exports = {
+  player1,
+  enemy1
+};
