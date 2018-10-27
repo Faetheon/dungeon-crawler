@@ -1,5 +1,5 @@
 
-class Player = {
+class Player {
   constructor(name, role, image, location) {
     this.info = {
       name,
@@ -52,7 +52,7 @@ const roles = {
   }
 };
 
-class Enemy = {
+class Enemy {
   constructor(type, location, image) {
     this.info = {
       type,
